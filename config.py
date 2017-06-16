@@ -5,7 +5,7 @@ from os import getenv, path
 AppRoot = path.abspath(path.dirname(__file__))
 
 # Bot Token
-Token = getenv('DiscordBotToken') or ''
+Token = getenv('DiscordBotToken') or 'MzI1NDE1NjQ1MjMzODA3MzYx.DCX6fg.M-sAb4uVo50RrNPk0JSdQokr6IQ'
 # API Keys
 MongoAddress = getenv('MongoAddress') or '127.0.0.1'
 MongoPort = getenv('MongoPort') or 27017
