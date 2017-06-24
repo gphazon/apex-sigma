@@ -5,7 +5,7 @@ def generate_defaults(server):
         'GreetMessage': 'Hello %user_mention%, welcome to %server_name%',
         'GreetChannel': server.default_channel.id,
         'GreetPM': False,
-        'Bye': True,
+        'Bye': False,
         'ByeMessage': '%user_mention% has left the server.',
         'ByeChannel': server.default_channel.id,
         'CleverBot': True,
