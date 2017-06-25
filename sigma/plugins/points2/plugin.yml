@@ -1,0 +1,39 @@
+name: Points
+
+categories:
+  - points
+
+enabled: true
+
+commands:
+  - name:   SeroBliss
+    alts:
+      
+      - "sero"
+      - "carly"
+      - "gibby"
+    global:  true
+    enabled: true
+    sfw:     true
+    usage:   "{pfx:s}{cmd:s} @person"
+    description:
+      Shows yours or a mentioned persons amount of Sero currency.
+
+events:
+  - name:    reward
+    type:    message
+    global:  true
+    enabled: true
+    sfw:     true
+    pmable:  true
+    description:
+      Get Sero by chatting in a channel.
+
+  - name:    voice_clockwork
+    type:    ready
+    global:  true
+    enabled: true
+    sfw:     true
+    pmable:  true
+    description:
+      Get Sero by chatting in a voice channel.
