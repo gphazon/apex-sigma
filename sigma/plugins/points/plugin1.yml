@@ -1,0 +1,37 @@
+name: Points
+
+categories:
+  - points1
+
+enabled: true
+
+commands:
+  - name:    level1
+    alts:
+      - "death"
+      - "deathbucks"
+    global:  true
+    enabled: true
+    sfw:     true
+    usage:   "{pfx:s}{cmd:s} @person"
+    description:
+      Shows yours or a mentioned persons amount of Death currency.
+
+events:
+  - name:    reward
+    type:    message
+    global:  true
+    enabled: true
+    sfw:     true
+    pmable:  true
+    description:
+      Get Death by chatting in a channel.
+
+  - name:    voice_clockwork
+    type:    ready
+    global:  true
+    enabled: true
+    sfw:     true
+    pmable:  true
+    description:
+      Get Death by chatting in a voice channel.
