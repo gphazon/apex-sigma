@@ -3,7 +3,7 @@ from sigma.core.utils import user_avatar
 from config import Currency1
 
 
-async def level1(cmd, message, args):
+async def death(cmd, message, args):
     if message.mentions:
         target = message.mentions[0]
     else:
@@ -17,10 +17,10 @@ async def level1(cmd, message, args):
         if str(message.guild.id) in servers:
             curr_srv = servers[str(message.guild.id)]
         response = discord.Embed(color=0x1ABC9C)
-        response.set_author(name=f'{target.name}\'s Currency Data', icon_url=user_avatar(target))
-        response.add_field(name='Current Wallet', value=f'```py\n{current_pts} {Currency}\n```')
-        response.add_field(name='This Server', value=f'```py\n{curr_srv} {Currency}\n```')
-        response.add_field(name='Total Gained', value=f'```py\n{total_pts} {Currency}\n```')
+        response.set_author(name=f'{target.name}\'s Currency1 Data', icon_url=user_avatar(target))
+        response.add_field(name='Current Wallet', value=f'```py\n{current_pts} {Currency1}\n```')
+        response.add_field(name='This Server', value=f'```py\n{curr_srv} {Currency1}\n```')
+        response.add_field(name='Total Gained', value=f'```py\n{total_pts} {Currency1}\n```')
     else:
         response = discord.Embed(color=0x696969, title=f'🔍 I couldn\'t find {target.name} in my point database.')
     response.set_footer(text=f'{Currency1} can be earned by being an active member of the server.')
