@@ -13,7 +13,6 @@ commands:
       - "phazon"
       - "sero"
       - "curly"
-      - "deathbucks"
     global:  true
     enabled: true
     sfw:     true
