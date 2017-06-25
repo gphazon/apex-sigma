@@ -1,4 +1,4 @@
-﻿import discord
+import discord
 import random
 from config import Prefix
 from .black_jack_backend import get_bj, add_bj, symbols, suits
@@ -48,3 +48,4 @@ async def blackjack(cmd, message, args):
                               title=random.choice(symbols) + ' A BlackJack Instance Has Been Created For You.')
         embed.set_footer(text='The set buyin amount is ' + str(buyin))
     await message.channel.send(None, embed=embed)
+
