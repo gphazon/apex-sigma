@@ -18,7 +18,7 @@ commands:
     sfw:     true
     usage:   "{pfx:s}{cmd:s} @person"
     description:
-      Shows yours or a mentioned persons amount of Sigma currency.
+      Shows yours or a mentioned persons amount of Phaaze currency.
 
 events:
   - name:    reward
@@ -28,7 +28,7 @@ events:
     sfw:     true
     pmable:  true
     description:
-      Get Kud by chatting in a channel.
+      Get Phaaze by chatting in a channel.
 
   - name:    voice_clockwork
     type:    ready
@@ -37,4 +37,4 @@ events:
     sfw:     true
     pmable:  true
     description:
-      Get Kud by chatting in a voice channel.
+      Get Phaaze by chatting in a voice channel.
