@@ -13,7 +13,7 @@ async def spin_slots(cmd, message, bet_amt, symbols, min_spins=4, max_spins=8, s
     current_time = arrow.utcnow().timestamp
     if message.author.id in slot_back_data:
         cd_timestamp = slot_back_data[message.author.id]
-        if cd_timestamp + 60 > current_time:
+        if cd_timestamp + 15 > current_time:
             not_on_cd = False
         else:
             not_on_cd = True
@@ -87,7 +87,7 @@ async def spin_slots(cmd, message, bet_amt, symbols, min_spins=4, max_spins=8, s
                 await win_notify_channel_object.send(None, embed=win_notify_embed)
         elif res_1 == res_2 or res_1 == res_3 or res_2 == res_3:
             win = True
-            pts = bet_amt * 12
+            pts = bet_amt * 120
         else:
             win = False
             pts = 0
