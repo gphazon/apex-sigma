@@ -5,7 +5,7 @@ from os import getenv, path
 AppRoot = path.abspath(path.dirname(__file__))
 
 # Bot Token
-Token = getenv('DiscordBotToken') or 'MzI1NDE1NjQ1MjMzODA3MzYx.DCX6fg.M-sAb4uVo50RrNPk0JSdQokr6IQ'
+Token = getenv('DiscordBotToken') or 'MzI1NDE1NjQ1MjMzODA3MzYx.DCYCxA.BoD_P7Qbnqsnhxrtdl8PwHSLJo4'
 # API Keys
 MongoAddress = getenv('MongoAddress') or '127.0.0.1'
 MongoPort = getenv('MongoPort') or 27017
@@ -55,7 +55,7 @@ UseCachet = False
 CachetToken = getenv('CachetToken') or ''
 CachetURL = getenv('CachetURL') or ''
 Prefix = '>>'
-Currency = 'Kud ⚜'
-SlotWinChannelID = 12345679123456789
-permitted_id = [123456789123456789]
+Currency = 'Phaaze ⚜'
+SlotWinChannelID = 112
+permitted_id = [149726614949855233, 183767059803537410 ]
 DefaultVolume = 100
