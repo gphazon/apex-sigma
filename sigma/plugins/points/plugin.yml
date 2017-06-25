@@ -6,19 +6,17 @@ categories:
 enabled: true
 
 commands:
-  - name:    level
+  - name:   death
     alts:
-      - "blue"
-      - "gp"
-      - "phazon"
-      - "sero"
-      - "curly"
+      
+      - "deathy"
+      - "deathbucks"
     global:  true
     enabled: true
     sfw:     true
     usage:   "{pfx:s}{cmd:s} @person"
     description:
-      Shows yours or a mentioned persons amount of Phaaze currency.
+      Shows yours or a mentioned persons amount of Phaaze/Death currency.
 
 events:
   - name:    reward
@@ -28,7 +26,7 @@ events:
     sfw:     true
     pmable:  true
     description:
-      Get Phaaze by chatting in a channel.
+      Get Phaaze/Death by chatting in a channel.
 
   - name:    voice_clockwork
     type:    ready
@@ -37,4 +35,4 @@ events:
     sfw:     true
     pmable:  true
     description:
-      Get Phaaze by chatting in a voice channel.
+      Get Phaaze/Death by chatting in a voice channel.
