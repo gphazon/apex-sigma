@@ -8,11 +8,11 @@ enabled: true
 commands:
   - name:    level
     alts:
-      - "lvl"
-      - "money"
-      - "currency"
-      - "kud"
-      - "kuds"
+      - "blue"
+      - "gp"
+      - "phazon"
+      - "sero"
+      - "curly"
     global:  true
     enabled: true
     sfw:     true
