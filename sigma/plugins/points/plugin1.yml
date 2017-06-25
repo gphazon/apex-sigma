@@ -6,7 +6,7 @@ categories:
 enabled: true
 
 commands:
-  - name:    level1
+  - name:    death
     alts:
       - "death"
       - "deathbucks"
