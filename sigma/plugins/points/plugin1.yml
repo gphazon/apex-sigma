@@ -1,21 +1,22 @@
 name: Points
 
 categories:
-  - points1
+  - points
 
 enabled: true
 
 commands:
-  - name:    death
+  - name:  level
     alts:
-      - "death"
-      - "deathbucks"
+      - "phaaze"
+      - "phazon"
+      
     global:  true
     enabled: true
     sfw:     true
     usage:   "{pfx:s}{cmd:s} @person"
     description:
-      Shows yours or a mentioned persons amount of Death currency.
+      Shows yours or a mentioned persons amount of Phaaze/Death currency.
 
 events:
   - name:    reward
@@ -25,7 +26,7 @@ events:
     sfw:     true
     pmable:  true
     description:
-      Get Death by chatting in a channel.
+      Get Phaaze/Death by chatting in a channel.
 
   - name:    voice_clockwork
     type:    ready
@@ -34,4 +35,4 @@ events:
     sfw:     true
     pmable:  true
     description:
-      Get Death by chatting in a voice channel.
+      Get Phaaze/Death by chatting in a voice channel.
