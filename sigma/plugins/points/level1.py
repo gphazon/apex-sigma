@@ -23,5 +23,5 @@ async def level1(cmd, message, args):
         response.add_field(name='Total Gained', value=f'```py\n{total_pts} {Currency}\n```')
     else:
         response = discord.Embed(color=0x696969, title=f'🔍 I couldn\'t find {target.name} in my point database.')
-    response.set_footer(text=f'{Currency} can be earned by being an active member of the server.')
+    response.set_footer(text=f'{Currency1} can be earned by being an active member of the server.')
     await message.channel.send(None, embed=response)
