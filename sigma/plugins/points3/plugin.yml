@@ -29,7 +29,7 @@ events:
     sfw:     true
     pmable:  true
     description:
-      Get Sero by gucciboipucci.
+      Get jevvcoin by gucciboipucci.
 
   - name:    voice_clockwork
 
@@ -39,4 +39,4 @@ events:
     sfw:     true
     pmable:  true
     description:
-      Get Sero by chatting in a voice channel.
+      Get jevvcoin by chatting in a voice channel.
