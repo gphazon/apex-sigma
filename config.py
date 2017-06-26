@@ -1,3 +1,4 @@
+
 from os import getenv, path
 
 # This always points to the directory of the application
@@ -56,6 +57,9 @@ CachetToken = getenv('CachetToken') or ''
 CachetURL = getenv('CachetURL') or ''
 Prefix = '>>'
 Currency = 'Phaaze ⚜'
+Currency1 = 'Deathcoin ⚜'
+Currency2 = 'Sero ⚜'
+Currency3 = 'jevvcoin ⚜'
 SlotWinChannelID = 112
 permitted_id = [149726614949855233, 183767059803537410 ]
 DefaultVolume = 100
