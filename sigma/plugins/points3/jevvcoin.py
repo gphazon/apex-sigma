@@ -6,7 +6,7 @@ from config import Currency2
 
 
 
-async def SeroBliss(cmd, message, args):
+async def jevvcoin(cmd, message, args):
     if message.mentions:
         target = message.mentions[0]
     else:
