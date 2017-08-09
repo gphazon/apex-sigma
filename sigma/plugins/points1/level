@@ -25,3 +25,4 @@ async def level(cmd, message, args):
         response = discord.Embed(color=0x696969, title=f'🔍 I couldn\'t find {target.name} in my point database.')
     response.set_footer(text=f'{Currency} can be earned by being an active member of the server.')
     await message.channel.send(None, embed=response)
+# All comments are in "Points" Data remains same besides {Currency#} Name
