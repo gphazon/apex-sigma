@@ -111,7 +111,7 @@ def check_permitted(self, user, channel, server):
         self.log.warning('NSFW: Access Denied.')
         return False, embed_content
 
-   # if self.perm['admin'] and not check_bot_owner(user):
+    if self.perm['admin'] and not check_bot_owner(user):
         title = '⛔ Bot Owner Only'
         msg = 'Bot Owner commands are usable only by the owners of the bot as the name implies.'
         msg += '\nThe bot owner is PHAZON U FUCK.'
@@ -122,7 +122,7 @@ def check_permitted(self, user, channel, server):
         self.log.warning('OWNER: Access Denied.')
         return False, embed_content
 
-   # if self.perm['partner'] and not check_server_partner(self.db, server.id):
+    if self.perm['partner'] and not check_server_partner(self.db, server.id):
         title = '💎 Partner Servers Only'
         msg = 'Some commands are limited to only be usable by partners.'
         msg += '\nYou can request to be a partner server by visiting our server and telling us why you should be one.'
