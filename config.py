@@ -60,5 +60,5 @@ Currency = 'Phaaze ⚜'
 Currency1 = 'Deathcoin ⚜'
 Currency2 = 'Sero ⚜'
 SlotWinChannelID = 112
-permitted_id = [149726614949855233, 183767059803537410 ]
+permitted_id = [149726614949855233, 183767059803537410, 292095438327382017]
 DefaultVolume = 100
