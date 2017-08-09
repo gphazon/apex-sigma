@@ -60,6 +60,7 @@ Currency = 'Phaaze ⚜'
 Currency1 = 'Deathcoin ⚜'
 Currency2 = 'Sero ⚜'
 Currency3 = 'jevvcoin ⚜'
+#currently removed Currency3
 SlotWinChannelID = 112
 permitted_id = [149726614949855233, 183767059803537410 ]
 DefaultVolume = 100
