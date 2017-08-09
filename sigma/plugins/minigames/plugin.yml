@@ -36,17 +36,17 @@ commands:
       You can specify the highest number the function calls by adding a number after the command.
       The Number TECHNICALLY does not have a limit but the bigger you use, the bigger the message, which just looks plain spammy.
 
-  - name: eightball
+  - name: magicconch
     alts:
-      - "8ball"
+      - "conch"
     global:  true
     enabled: true
     sfw:     true
-    usage:   "{pfx:s}{cmd:s} Will I ever travel to Venice?"
+    usage:   "{pfx:s}{cmd:s} Does this bot work?"
     description:
-      The 8Ball has answers to ALL your question.
-      Come one, come all, and ask the mighty allknowing 8Ball!
-      Provide a question at the end of the command and await the miraculous answer!
+     The magic conch has answers to ALL your question.
+      Come one, come all, and ask the mighty allknowing magic conch!
+      All hail the magic conch!
 
   - name: rps
     global:  true
